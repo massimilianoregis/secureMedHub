@@ -1,0 +1,65 @@
+
+/**
+ * GET /2021-08/geographic/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Geographic
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/geographic/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Geographic
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/geographic/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Geographic
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/geographic/import
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Geographic
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/geographic/{country}/{state}/cities
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Geographic
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/geographic/{country}/states
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Geographic
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/geographic/countries
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Geographic
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/geographic/
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Geographic
+ * @security BearerAuth
+ */
+

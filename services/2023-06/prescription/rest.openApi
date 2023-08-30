@@ -1,0 +1,78 @@
+
+/**
+ * GET /2023-06/prescription/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Prescription
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/prescription/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Prescription
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2023-06/prescription/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Prescription
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/prescription/ids
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Prescription
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2023-06/prescription/
+ * @summary autogenerate
+ * @return {array<Prescription>} 200 - success response
+ * @tags Prescription
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/prescription/
+ * @summary autogenerate
+ * @param {Prescription} request.body.required - Prescription
+ * @return {Prescription} 200 - success response
+ * @tags Prescription
+ * @security BearerAuth
+ */
+
+
+/**
+ * GET /2023-06/prescription/{id}
+ * @summary autogenerate
+ * @return {Prescription} 200 - success response
+ * @tags Prescription
+ * @security BearerAuth
+ */
+
+/**
+ * PUT /2023-06/prescription/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @param {Prescription} request.body.required - Prescription
+ * @return {Prescription} 200 - success response
+ * @tags Prescription
+ * @security BearerAuth
+ */
+
+/**
+ * DELETE /2023-06/prescription/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @return {Prescription} 200 - success response
+ * @tags Prescription
+ * @security BearerAuth
+ */
+

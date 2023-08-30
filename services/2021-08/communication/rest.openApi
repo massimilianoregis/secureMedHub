@@ -1,0 +1,33 @@
+
+/**
+ * GET /2021-08/communication/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Communication
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/communication/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Communication
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/communication/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Communication
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/communication/test
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Communication
+ * @security BearerAuth
+ */
+

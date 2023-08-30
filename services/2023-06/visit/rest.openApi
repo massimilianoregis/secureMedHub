@@ -1,0 +1,94 @@
+
+/**
+ * GET /2023-06/visit/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Visit
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/visit/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Visit
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2023-06/visit/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Visit
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2023-06/visit/
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Visit
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2023-06/visit/patient/{patient}
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Visit
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/visit/ids
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Visit
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2023-06/visit/
+ * @summary autogenerate
+ * @return {array<Visit>} 200 - success response
+ * @tags Visit
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/visit/
+ * @summary autogenerate
+ * @param {Visit} request.body.required - Visit
+ * @return {Visit} 200 - success response
+ * @tags Visit
+ * @security BearerAuth
+ */
+
+
+/**
+ * GET /2023-06/visit/{id}
+ * @summary autogenerate
+ * @return {Visit} 200 - success response
+ * @tags Visit
+ * @security BearerAuth
+ */
+
+/**
+ * PUT /2023-06/visit/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @param {Visit} request.body.required - Visit
+ * @return {Visit} 200 - success response
+ * @tags Visit
+ * @security BearerAuth
+ */
+
+/**
+ * DELETE /2023-06/visit/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @return {Visit} 200 - success response
+ * @tags Visit
+ * @security BearerAuth
+ */
+
