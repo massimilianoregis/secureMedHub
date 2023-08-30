@@ -1,0 +1,293 @@
+
+/**
+ * GET /2022-10/auth/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2022-10/auth/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2022-10/auth/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2022-10/auth/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2022-10/auth/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2022-10/auth/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2022-10/auth/jwt/{email}
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2022-10/auth/me
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2022-10/auth/temporaryCode/{id}
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2022-10/auth/register
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2022-10/auth/confirm
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2022-10/auth/login/{fake}
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+
+/**
+ * GET /2022-10/auth/login
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * POST /2022-10/auth/login
+ * @summary autogenerate
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * PUT /2022-10/auth/login
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * DELETE /2022-10/auth/login
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * GET /2022-10/auth/logout
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+
+/**
+ * GET /2022-10/auth/socialLogged
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * POST /2022-10/auth/socialLogged
+ * @summary autogenerate
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * PUT /2022-10/auth/socialLogged
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * DELETE /2022-10/auth/socialLogged
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2022-10/auth/sendResetMail
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * POST /2022-10/auth/sendResetMail
+ * @summary autogenerate
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * PUT /2022-10/auth/sendResetMail
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * DELETE /2022-10/auth/sendResetMail
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2022-10/auth/resetPassword
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * POST /2022-10/auth/resetPassword
+ * @summary autogenerate
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * PUT /2022-10/auth/resetPassword
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * DELETE /2022-10/auth/resetPassword
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * POST /2022-10/auth/changePassword
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2022-10/auth/
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+
+/**
+ * GET /2022-10/auth/personification
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * POST /2022-10/auth/personification
+ * @summary autogenerate
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * PUT /2022-10/auth/personification
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+/**
+ * DELETE /2022-10/auth/personification
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Auth
+ * @security BearerAuth
+ */
+
+

@@ -1,0 +1,78 @@
+
+/**
+ * GET /2023-06/vitalSigns/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags VitalSigns
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/vitalSigns/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags VitalSigns
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2023-06/vitalSigns/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags VitalSigns
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/vitalSigns/ids
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags VitalSigns
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2023-06/vitalSigns/
+ * @summary autogenerate
+ * @return {array<VitalSigns>} 200 - success response
+ * @tags VitalSigns
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/vitalSigns/
+ * @summary autogenerate
+ * @param {VitalSigns} request.body.required - VitalSigns
+ * @return {VitalSigns} 200 - success response
+ * @tags VitalSigns
+ * @security BearerAuth
+ */
+
+
+/**
+ * GET /2023-06/vitalSigns/{id}
+ * @summary autogenerate
+ * @return {VitalSigns} 200 - success response
+ * @tags VitalSigns
+ * @security BearerAuth
+ */
+
+/**
+ * PUT /2023-06/vitalSigns/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @param {VitalSigns} request.body.required - VitalSigns
+ * @return {VitalSigns} 200 - success response
+ * @tags VitalSigns
+ * @security BearerAuth
+ */
+
+/**
+ * DELETE /2023-06/vitalSigns/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @return {VitalSigns} 200 - success response
+ * @tags VitalSigns
+ * @security BearerAuth
+ */
+

@@ -1,0 +1,243 @@
+
+/**
+ * GET /2021-08/dbase/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/dbase/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/dbase/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/dbase/
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/dbase/turbo/clean
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/dbase/turbo
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/dbase/queries
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+
+
+/**
+ * GET /2021-08/dbase/{name}/turbo/{query}(*)
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/dbase/{name}/parse
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+
+/**
+ * GET /2021-08/dbase/{name}/index
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+/**
+ * POST /2021-08/dbase/{name}/index
+ * @summary autogenerate
+ 
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+/**
+ * PUT /2021-08/dbase/{name}/index
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+/**
+ * DELETE /2021-08/dbase/{name}/index
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/dbase/{name}/count
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+/**
+ * POST /2021-08/dbase/{name}/count
+ * @summary autogenerate
+ 
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+/**
+ * PUT /2021-08/dbase/{name}/count
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+/**
+ * DELETE /2021-08/dbase/{name}/count
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/dbase/{name}/findOne
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+/**
+ * POST /2021-08/dbase/{name}/findOne
+ * @summary autogenerate
+ 
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+/**
+ * PUT /2021-08/dbase/{name}/findOne
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+/**
+ * DELETE /2021-08/dbase/{name}/findOne
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/dbase/{name}/find
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+/**
+ * POST /2021-08/dbase/{name}/find
+ * @summary autogenerate
+ 
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+/**
+ * PUT /2021-08/dbase/{name}/find
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+/**
+ * DELETE /2021-08/dbase/{name}/find
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+/**
+ * POST /2021-08/dbase/{name}
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+/**
+ * PUT /2021-08/dbase/{name}
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/dbase/{name}/delete
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/dbase/{name}/dump
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dbase
+ * @security BearerAuth
+ */
+

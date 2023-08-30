@@ -1,0 +1,81 @@
+
+/**
+ * GET /2023-06/dermatologist/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dermatologist
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/dermatologist/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dermatologist
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2023-06/dermatologist/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dermatologist
+ * @security BearerAuth
+ */
+
+
+
+
+/**
+ * POST /2023-06/dermatologist/visit/ids
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Dermatologist
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2023-06/dermatologist/visit/
+ * @summary autogenerate
+ * @return {array<Visit>} 200 - success response
+ * @tags Dermatologist
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/dermatologist/visit/
+ * @summary autogenerate
+ * @param {Visit} request.body.required - Visit
+ * @return {Visit} 200 - success response
+ * @tags Dermatologist
+ * @security BearerAuth
+ */
+
+
+/**
+ * GET /2023-06/dermatologist/visit/{id}
+ * @summary autogenerate
+ * @return {Visit} 200 - success response
+ * @tags Dermatologist
+ * @security BearerAuth
+ */
+
+/**
+ * PUT /2023-06/dermatologist/visit/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @param {Visit} request.body.required - Visit
+ * @return {Visit} 200 - success response
+ * @tags Dermatologist
+ * @security BearerAuth
+ */
+
+/**
+ * DELETE /2023-06/dermatologist/visit/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @return {Visit} 200 - success response
+ * @tags Dermatologist
+ * @security BearerAuth
+ */
+

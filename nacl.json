@@ -1,0 +1,415 @@
+[
+  {
+    "group": "admin",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "user",
+    "permissions": [      
+      {
+        "resource": "_next/*",
+        "methods": "*",
+        "action": "allow"
+      },           
+      {
+        "resource": "2021-08/geographic/*",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "2021-08/researchPrograms/*",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "2021-08/content/*",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "2022-10/user/me",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "2021-08/user/me",
+        "methods": ["GET"],
+        "action": "allow"
+      },     
+      {
+        "resource": "2021-08/user/*",
+        "methods": ["PUT"],
+        "action": "allow"
+      },                        
+      {
+        "resource": "2022-10/auth/*",
+        "methods": "*",
+        "action": "deny",
+        "subRoutes": [{
+              "resource": "facebook/*",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "google/*",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "login",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "register",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "resetPassword",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "socialLogged",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "changePassword",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "me",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "logout",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource":"confirm",
+              "methods":"*",
+              "action":"allow"
+            }
+          ]
+      },      
+      {
+        "resource": "/",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "error",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "purchase",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "register",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "login",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "notification",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "passwordReset",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "changePassword",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "assets/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "imgs/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "favicon.ico",
+        "methods": "*",
+        "action": "allow"
+      },                
+      {
+        "resource": "profile/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "account/*",
+        "methods": "*",
+        "action": "allow"
+      },     
+      {
+        "resource": "2020-09/images/*",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "images/*",
+        "methods": ["GET","POST"],
+        "action": "allow"
+      },      
+      {
+        "resource": "static/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "index.html",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "svg/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "manifest.json",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "service-worker.js",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "favicon.png",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "forms/*",
+        "methods": "*",
+        "action": "allow"
+      } 
+    ]
+  },
+  {
+    "group": "unknown",
+    "permissions": [     
+      {
+        "resource": "git/push",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": ".well-known/pki-validation/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "2021-08/project/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "sslForFree/*",
+        "methods": "*",
+        "action": "allow"
+      },      
+      {
+        "resource": "_next/*",
+        "methods": "*",
+        "action": "allow"
+      },                      
+      {
+        "resource": "2021-08/geographic/*",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "2022-10/user/me",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "2021-08/user/me",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "2021-08/content/*",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "2022-10/auth/*",
+        "methods": "*",
+        "action": "deny",
+        "subRoutes": [
+            {
+              "resource": "facebook/*",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "google/*",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "login",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "register",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "resetPassword",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "socialLogged",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "changePassword",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "me",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource": "logout",
+              "methods": "*",
+              "action": "allow"
+            },
+            {
+              "resource":"confirm",
+              "methods":"*",
+              "action":"allow"
+            }
+          ]
+      },
+      {
+        "resource": "error",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "register",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "login",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "profile/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "account/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "recoverPasswordEmail/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/recoverPasswordPassword/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "passwordReset",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "changePassword",
+        "methods": "*",
+        "action": "allow"
+      },      
+      {
+        "resource": "images/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "assets/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "/",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "static/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "index.html",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "svg/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "manifest.json",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "service-worker.js",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "favicon.png",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  }
+]

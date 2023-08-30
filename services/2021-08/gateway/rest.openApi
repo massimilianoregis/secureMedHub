@@ -1,0 +1,57 @@
+
+/**
+ * GET /2021-08/gateway/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Gateway
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/gateway/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Gateway
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/gateway/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Gateway
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/gateway/config/all
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Gateway
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/gateway/
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Gateway
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/gateway/install/ionic
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Gateway
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/gateway/install
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Gateway
+ * @security BearerAuth
+ */
+

@@ -1,0 +1,20 @@
+{
+  "sub": "1234567890",
+  "name": "Admin",
+  "id": "237483678426343434",
+  "roles": [
+    {
+      "name": "admin"
+    }
+  ],
+  "features":{
+        "patient.status":true,
+        "patient.visits":true,          
+        "patient.tests":true,        
+        "patient.prescription":true,
+        "test.logins":true      
+   },
+  "dermatologist": [
+    "organization1"
+  ]
+}

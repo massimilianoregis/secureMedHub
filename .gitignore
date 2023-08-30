@@ -1,0 +1,5 @@
+node_modules
+secrets.js
+logs
+_ui
+*.nedb

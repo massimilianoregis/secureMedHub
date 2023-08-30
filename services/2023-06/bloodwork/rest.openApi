@@ -1,0 +1,78 @@
+
+/**
+ * GET /2023-06/bloodwork/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Bloodwork
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/bloodwork/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Bloodwork
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2023-06/bloodwork/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Bloodwork
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/bloodwork/ids
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Bloodwork
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2023-06/bloodwork/
+ * @summary autogenerate
+ * @return {array<BloodWork>} 200 - success response
+ * @tags Bloodwork
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2023-06/bloodwork/
+ * @summary autogenerate
+ * @param {BloodWork} request.body.required - BloodWork
+ * @return {BloodWork} 200 - success response
+ * @tags Bloodwork
+ * @security BearerAuth
+ */
+
+
+/**
+ * GET /2023-06/bloodwork/{id}
+ * @summary autogenerate
+ * @return {BloodWork} 200 - success response
+ * @tags Bloodwork
+ * @security BearerAuth
+ */
+
+/**
+ * PUT /2023-06/bloodwork/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @param {BloodWork} request.body.required - BloodWork
+ * @return {BloodWork} 200 - success response
+ * @tags Bloodwork
+ * @security BearerAuth
+ */
+
+/**
+ * DELETE /2023-06/bloodwork/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @return {BloodWork} 200 - success response
+ * @tags Bloodwork
+ * @security BearerAuth
+ */
+

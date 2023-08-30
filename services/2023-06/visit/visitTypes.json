@@ -1,0 +1,424 @@
+[
+    {
+      "name": "General Medicine",
+      "assessments": [
+        {"name": "Common cold"},
+        {"name": "Influenza (Flu)"},
+        {"name": "Hypertension (High blood pressure)"},
+        {"name": "Type 2 Diabetes"},
+        {"name": "Hypercholesterolemia (High cholesterol)"},
+        {"name": "Hypothyroidism"},
+        {"name": "Gastroenteritis"},
+        {"name": "Gastroesophageal reflux disease (GERD)"},
+        {"name": "Anemia"},
+        {"name": "Urinary tract infection (UTI)"},
+        {"name": "Bronchitis"},
+        {"name": "Pneumonia"},
+        {"name": "Allergies"},
+        {"name": "Migraine"},
+        {"name": "Depression"},
+        {"name": "Anxiety disorders"},
+        {"name": "Insomnia"},
+        {"name": "Osteoarthritis"},
+        {"name": "Back pain"        }
+      ]
+    },
+    {
+      "name": "Cardiology",
+      "assessments": [
+        {"name": "Coronary artery disease (CAD)"},
+        {"name": "Arrhythmia"},
+        {"name": "Congestive heart failure (CHF)"},
+        {"name": "Valvular heart disease"},
+        {"name": "Myocardial infarction (Heart attack)"},
+        {"name": "Hypertrophic cardiomyopathy"},
+        {"name": "Atrial fibrillation"},
+        {"name": "Peripheral artery disease (PAD)"},
+        {"name": "Pulmonary embolism"},
+        {"name": "Angina pectoris"},
+        {"name": "Cardiomyopathy"        }
+      ]
+    },
+    {
+      "name": "Ophthalmology",
+      "assessments": [
+        {"name": "Myopia (Nearsightedness)"},
+        {"name": "Hyperopia (Farsightedness)"},
+        {"name": "Cataracts"},
+        {"name": "Glaucoma"},
+        {"name": "Conjunctivitis (Pink eye)"},
+        {"name": "Macular degeneration"},
+        {"name": "Dry eye syndrome"},
+        {"name": "Astigmatism"},
+        {"name": "Retinal detachment"},
+        {"name": "Amblyopia (Lazy eye)"},
+        {"name": "Strabismus (Crossed eyes)"        }
+      ]
+    },
+    {
+      "name": "Gynecology",
+      "assessments": [
+        {"name": "Menstrual disorders"},
+        {"name": "Endometriosis"},
+        {"name": "Polycystic ovary syndrome (PCOS)"},
+        {"name": "Cervical dysplasia"},
+        {"name": "Uterine fibroids"},
+        {"name": "Premenstrual syndrome (PMS)"},
+        {"name": "Pelvic inflammatory disease (PID)"},
+        {"name": "Ovarian cysts"},
+        {"name": "Vaginal yeast infection"},
+        {"name": "Pelvic organ prolapse"},
+        {"name": "Menopause"        }
+      ]
+    },
+    {
+      "name": "Urology",
+      "assessments": [
+        {"name": "Kidney stones"},
+        {"name": "Benign prostatic hyperplasia (BPH)"},
+        {"name": "Urinary incontinence"},
+        {"name": "Erectile dysfunction (ED)"},
+        {"name": "Bladder cancer"},
+        {"name": "Urinary tract infection (UTI)"},
+        {"name": "Prostate cancer"},
+        {"name": "Testicular cancer"},
+        {"name": "Interstitial cystitis (Painful bladder syndrome)"},
+        {"name": "Varicocele"        }
+      ]
+    },
+    {
+      "name": "Pediatrics",
+      "assessments": [
+        {"name": "Ear infection (Otitis media)"},
+        {"name": "Strep throat"},
+        {"name": "Bronchiolitis"},
+        {"name": "Asthma"},
+        {"name": "Growth and developmental concerns"},
+        {"name": "Immunization schedules"},
+        {"name": "Childhood obesity"},
+        {"name": "Attention-deficit/hyperactivity disorder (ADHD)"},
+        {"name": "Autism spectrum disorder (ASD)"},
+        {"name": "Childhood asthma"},
+        {"name": "Pediatric diabetes"        }
+      ]
+    },
+    {
+      "name": "Dentistry",
+      "assessments": [
+        {"name": "Cavities (Dental caries)"},
+        {"name": "Gingivitis"},
+        {"name": "Periodontitis (Gum disease)"},
+        {"name": "Tooth abscess"},
+        {"name": "Tooth sensitivity"},
+        {"name": "Dental erosion"},
+        {"name": "Malocclusion (Misaligned teeth)"},
+        {"name": "Bruxism (Teeth grinding)"},
+        {"name": "Dental crowding"},
+        {"name": "Oral thrush"},
+        {"name": "Dry socket"        }
+      ]
+    },
+    {
+      "name": "Otorhinolaryngology (ENT)",
+      "assessments": [
+        {"name": "Ear infection (Otitis media)"},
+        {"name": "Sinusitis"},
+        {"name": "Tonsillitis"},
+        {"name": "Allergic rhinitis (Hay fever)"},
+        {"name": "Hearing loss"},
+        {"name": "Vertigo"},
+        {"name": "Snoring and sleep apnea"},
+        {"name": "Gastroesophageal reflux disease (GERD)"},
+        {"name": "Laryngitis"},
+        {"name": "Nasal polyps"},
+        {"name": "Deviated septum"        }
+      ]
+    },
+    {
+      "name": "Orthopedics",
+      "assessments": [
+        {"name": "Fractures"},
+        {"name": "Sprains and strains"},
+        {"name": "Osteoarthritis"},
+        {"name": "Rheumatoid arthritis"},
+        {"name": "Tendinitis"},
+        {"name": "Carpal tunnel syndrome"},
+        {"name": "Sciatica"},
+        {"name": "Scoliosis"},
+        {"name": "Herniated disc"},
+        {"name": "Frozen shoulder"},
+        {"name": "Plantar fasciitis"        }
+      ]
+    },
+    {
+      "name": "Neurology",
+      "assessments": [
+        {"name": "Migraine"},
+        {"name": "Epilepsy"},
+        {"name": "Stroke"},
+        {"name": "Alzheimer's disease"},
+        {"name": "Parkinson's disease"},
+        {"name": "Multiple sclerosis (MS)"},
+        {"name": "Peripheral neuropathy"},
+        {"name": "Bell's palsy"},
+        {"name": "Cluster headache"},
+        {"name": "Myasthenia gravis"},
+        {"name": "Amyotrophic lateral sclerosis (ALS)"        }
+      ]
+    },
+    {
+      "name": "Psychology/Psychiatry",
+      "assessments": [
+        {"name": "Depression"},
+        {"name": "Anxiety disorders"},
+        {"name": "Bipolar disorder"},
+        {"name": "Schizophrenia"},
+        {"name": "Eating disorders"},
+        {"name": "Obsessive-compulsive disorder (OCD)"},
+        {"name": "Post-traumatic stress disorder (PTSD)"},
+        {"name": "Attention-deficit/hyperactivity disorder (ADHD)"},
+        {"name": "Social anxiety disorder"},
+        {"name": "Panic disorder"},
+        {"name": "Borderline personality disorder"        }
+      ]
+    },
+    {
+      "name": "Endocrinology",
+      "assessments": [
+        {"name": "Thyroid disorders"},
+        {"name": "Type 1 Diabetes"},
+        {"name": "Type 2 Diabetes"},
+        {"name": "Hyperthyroidism"},
+        {"name": "Hypothyroidism"},
+        {"name": "Adrenal insufficiency"},
+        {"name": "Cushing's syndrome"},
+        {"name": "Pituitary adenoma"},
+        {"name": "Gestational diabetes"},
+        {"name": "Polycystic ovary syndrome (PCOS)"},
+        {"name": "Hyperparathyroidism"        }
+      ]
+    },
+    {
+      "name": "Gastroenterology",
+      "assessments": [
+        {"name": "Gastritis"},
+        {"name": "Peptic ulcers"},
+        {"name": "Gastroesophageal reflux disease (GERD)"},
+        {"name": "Irritable bowel syndrome (IBS)"},
+        {"name": "Inflammatory bowel disease (IBD)"},
+        {"name": "Gallstones"},
+        {"name": "Hepatitis"},
+        {"name": "Pancreatitis"},
+        {"name": "Celiac disease"},
+        {"name": "Crohn's disease"},
+        {"name": "Ulcerative colitis"        }
+      ]
+    },
+    {
+      "name": "Pulmonology",
+      "assessments": [
+        {"name": "Asthma"},
+        {"name": "Chronic obstructive pulmonary disease (COPD)"},
+        {"name": "Pneumonia"},
+        {"name": "Lung cancer"},
+        {"name": "Obstructive sleep apnea"},
+        {"name": "Pulmonary embolism"},
+        {"name": "Bronchitis"},
+        {"name": "Pleural effusion"},
+        {"name": "Interstitial lung disease"},
+        {"name": "Pulmonary fibrosis"},
+        {"name": "Tuberculosis"        }
+      ]
+    },
+    {
+      "name": "Oncology",
+      "assessments": [
+        {"name": "Breast cancer"},
+        {"name": "Prostate cancer"},
+        {"name": "Colon cancer"},
+        {"name": "Lung cancer"},
+        {"name": "Leukemia"},
+        {"name": "Pancreatic cancer"},
+        {"name": "Ovarian cancer"},
+        {"name": "Bladder cancer"},
+        {"name": "Liver cancer"},
+        {"name": "Kidney cancer"},
+        {"name": "Lymphoma"        }
+      ]
+    },
+    {
+      "name": "Rheumatology",
+      "assessments": [
+        {"name": "Rheumatoid arthritis"},
+        {"name": "Osteoarthritis"},
+        {"name": "Lupus"},
+        {"name": "Spondyloarthritis"},
+        {"name": "Gout"},
+        {"name": "Systemic sclerosis (Scleroderma)"},
+        {"name": "Ankylosing spondylitis"},
+        {"name": "Polymyalgia rheumatica"},
+        {"name": "Juvenile idiopathic arthritis"},
+        {"name": "Fibromyalgia"},
+        {"name": "Mixed connective tissue disease"        }
+      ]
+    },
+    {
+      "name": "Immunology",
+      "assessments": [
+        {"name": "Allergies"},
+        {"name": "Autoimmune diseases"},
+        {"name": "Immunodeficiency disorders"},
+        {"name": "Human immunodeficiency virus (HIV)"},
+        {"name": "Vaccination"},
+        {"name": "Systemic lupus erythematosus (SLE)"},
+        {"name": "Rheumatoid arthritis"},
+        {"name": "Multiple sclerosis (MS)"},
+        {"name": "Type 1 diabetes"},
+        {"name": "Inflammatory bowel disease (IBD)"},
+        {"name": "Psoriasis"        }
+      ]
+    },
+    {
+      "name": "Hematology",
+      "assessments": [
+        {"name": "Anemia"},
+        {"name": "Hemophilia"},
+        {"name": "Thrombocytopenia"},
+        {"name": "Leukemia"},
+        {"name": "Lymphoma"},
+        {"name": "Sickle cell disease"},
+        {"name": "Myelodysplastic syndromes (MDS)"},
+        {"name": "Multiple myeloma"},
+        {"name": "Hodgkin's lymphoma"},
+        {"name": "Polycythemia vera"},
+        {"name": "Thalassemia"        }
+      ]
+    },
+    {
+      "name": "Nephrology",
+      "assessments": [
+        {"name": "Chronic kidney disease (CKD)"},
+        {"name": "Kidney stones"},
+        {"name": "Acute kidney injury (AKI)"},
+        {"name": "Polycystic kidney disease (PKD)"},
+        {"name": "Glomerulonephritis"},
+        {"name": "Urinary tract infection (UTI)"},
+        {"name": "Nephrotic syndrome"},
+        {"name": "Renal artery stenosis"},
+        {"name": "Hydronephrosis"},
+        {"name": "Hematuria (blood in urine)"},
+        {"name": "Kidney cancer"        }
+      ]
+    },
+    {
+      "name": "Gynecologic Oncology",
+      "assessments": [
+        {"name": "Cervical cancer"},
+        {"name": "Ovarian cancer"},
+        {"name": "Endometrial cancer"},
+        {"name": "Vaginal cancer"},
+        {"name": "Vulvar cancer"},
+        {"name": "Fallopian tube cancer"},
+        {"name": "Gestational trophoblastic disease"},
+        {"name": "Uterine sarcoma"},
+        {"name": "Primary peritoneal cancer"},
+        {"name": "Placental site trophoblastic tumor"},
+        {"name": "Ovarian germ cell tumors"        }
+      ]
+    },
+    {
+      "name": "Hepatology",
+      "assessments": [
+        {"name": "Hepatitis B"},
+        {"name": "Hepatitis C"},
+        {"name": "Alcoholic liver disease"},
+        {"name": "Nonalcoholic fatty liver disease (NAFLD)"},
+        {"name": "Cirrhosis"},
+        {"name": "Liver cancer"},
+        {"name": "Hemochromatosis"},
+        {"name": "Primary biliary cholangitis"},
+        {"name": "Primary sclerosing cholangitis"},
+        {"name": "Wilson's disease"},
+        {"name": "Autoimmune hepatitis"        }
+      ]
+    },
+    {
+      "name": "Allergy and Immunology",
+      "assessments": [
+        {"name": "Allergies"},
+        {"name": "Asthma"},
+        {"name": "Anaphylaxis"},
+        {"name": "Food allergies"},
+        {"name": "Hay fever (Allergic rhinitis)"},
+        {"name": "Atopic dermatitis (Eczema)"},
+        {"name": "Hives (Urticaria)"},
+        {"name": "Angioedema"},
+        {"name": "Insect sting allergies"},
+        {"name": "Drug allergies"},
+        {"name": "Immune deficiency disorders"        }
+      ]
+    },
+    {
+      "name": "Dermatologic",
+      "component": "dermatologist/Visit",
+      "assessments": [
+        {"name": "Acne (Acne vulgaris)",
+          "component": "dermatologist/assessments/AcneEdit"
+        },
+        {"name": "Atopic Dermatitis (Eczema)"},
+        {"name": "Psoriasis"},
+        {"name": "Skin Infections (e.g., Impetigo, Cellulitis, Folliculitis)"},
+        {"name": "Warts (e.g., Common Warts, Plantar Warts)",
+          "component": "dermatologist/assessments/warts/Edit",
+          "initialValues":{
+              "where": ["Genitals"], 
+              "type":"dermatologist",
+              "actions": "", 
+              "notes":"Condyloma acuminatum (genital warts) can be treated with retinoids, Aldara, salicylic acid preparations or cryotherapy. There may be off-label treatment options as well that have been reported in the literature to yield good results.",
+              "expectations":"Warts are cauliflower-like bumps caused by viral infections. They may resemble skin tags in the genital area. They can be spread through direct contact and usually resolve with treatment. But they may recur, typically in times of immunosuppression or stress. With genital warts, please disclose with your current and prior partner(s) to the best of your ability so that they can seek medical evaluation and treatment (if they are also affected). In women, untreated cervical/genital warts can increase the risk of mucocutaneous cancer, so it is important to communicate this part of your history clearly, openly, and in a timely manner.",
+              "contact_office_if":"The warts spread, or recur despite treatment." 
+  },
+          "procedures":
+            [
+              {
+                "name":"cryoprocedure",
+                "component":"./visit/dermatologist/assessments/warts/procedures/cryoprocedure/Edit",
+                "initialValues":{
+                  "lesions":0,          
+                  "consent": "The patient's consent was obtained including but not limited to risks of crusting, scabbing, blistering, scarring, darker or lighter pigmentary change, recurrence, incomplete removal and infection.", 
+                  "post_care_instruction":"Patient should wear sun protection when outside and avoid picking at any of the treated lesions. Patient may apply a thick emollient (e.g., Vaseline or Aquaphor ointment) to crusted or scabbing areas; otherwise, keeping the treated areas clean and dry works best in many cases."
+                }
+      },
+              {"name":"Laser","component":"./visit/dermatologist/assessments/warts/procedures/Laser"},
+              {"name":"Excision","component":"./visit/dermatologist/procedures/Excision/Edit"},
+              {"name":"Medication","component":"./visit/dermatologist/assessments/warts/procedures/Medication"}
+            ]          
+},
+        {"name": "Tinea Corporis (Ringworm)"},
+        {"name": "Urticaria (Hives)"},
+        {"name": "Herpes Simplex (Cold Sores, Genital Herpes)"},
+        {"name": "Scabies"},
+        {"name": "Rosacea"},
+        {"name": "Melasma"},
+        {"name": "Vitiligo"},
+        {"name": "Freckles (Ephelides)"},
+        {"name": "Melanoma"},
+        {"name": "Nevus (Pigmented Nevi, commonly known as 'moles')"},
+        {"name": "Seborrheic Keratosis"},
+        {"name": "Paget's Disease of the Nipple"},
+        {"name": "Itching (Pruritus)"},
+        {"name": "Erythema Nodosum"},
+        {"name": "Molluscum Contagiosum"},
+        {"name": "Lichen Planus"},
+        {"name": "Contact Dermatitis"},
+        {"name": "Pemphigus"},
+        {"name": "Bullous Pemphigoid"},
+        {"name": "Scleroderma"},
+        {"name": "Seborrheic Dermatitis"},
+        {"name": "Alopecia (Hair Loss)"},
+        {"name": "Pityriasis Rosea"},
+        {"name": "Erythema Multiforme"},
+        {"name": "Drug Eruption Syndromes"        }
+      ]
+    }
+  ]

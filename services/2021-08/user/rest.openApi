@@ -1,0 +1,110 @@
+
+/**
+ * GET /2021-08/user/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags User
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/user/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags User
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/user/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags User
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/user/me
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags User
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/user/mail/{mail}
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags User
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/user/
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags User
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/user/ids
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags User
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/user/
+ * @summary autogenerate
+ * @return {array<User>} 200 - success response
+ * @tags User
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/user/
+ * @summary autogenerate
+ * @param {User} request.body.required - User
+ * @return {User} 200 - success response
+ * @tags User
+ * @security BearerAuth
+ */
+
+
+/**
+ * GET /2021-08/user/{id}
+ * @summary autogenerate
+ * @return {User} 200 - success response
+ * @tags User
+ * @security BearerAuth
+ */
+
+/**
+ * PUT /2021-08/user/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @param {User} request.body.required - User
+ * @return {User} 200 - success response
+ * @tags User
+ * @security BearerAuth
+ */
+
+/**
+ * DELETE /2021-08/user/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @return {User} 200 - success response
+ * @tags User
+ * @security BearerAuth
+ */
+
+/**
+ * PUT /2021-08/user/{id}/preferences
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags User
+ * @security BearerAuth
+ */
+

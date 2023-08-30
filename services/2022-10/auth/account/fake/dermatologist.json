@@ -1,0 +1,22 @@
+{
+  "sub": "1234567890",
+  "name": "Dermatologist",
+  "id": "237483678426343434",
+  "visitType":"Dermatologic",
+  "roles": [
+    {
+      "name": "admin"
+    }
+  ],
+  "features":{
+        "patient.status":false,
+        "patient.visits":false,          
+        "patient.tests":false,        
+        "patient.prescription":false,
+        "test.logins":true,
+        "hospital.visit":true      
+   },
+  "dermatologist": [
+    "organization1"
+  ]
+}

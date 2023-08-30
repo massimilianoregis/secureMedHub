@@ -1,0 +1,208 @@
+
+/**
+ * GET /2021-08/git/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/git/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/git/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/git/
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+
+/**
+ * GET /2021-08/git/push
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+/**
+ * POST /2021-08/git/push
+ * @summary autogenerate
+ 
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+/**
+ * PUT /2021-08/git/push
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+/**
+ * DELETE /2021-08/git/push
+ * @summary autogenerate
+ 
+ 
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+/**
+ * POST /2021-08/git/install
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/git/install/ionic
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/git/sync/{name}(*)
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/git/
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/git/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/git/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/git/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/git/repository/ids
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/git/repository/
+ * @summary autogenerate
+ * @return {array<Repository>} 200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/git/repository/
+ * @summary autogenerate
+ * @param {Repository} request.body.required - Repository
+ * @return {Repository} 200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+
+/**
+ * GET /2021-08/git/repository/{id}
+ * @summary autogenerate
+ * @return {Repository} 200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * PUT /2021-08/git/repository/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @param {Repository} request.body.required - Repository
+ * @return {Repository} 200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * DELETE /2021-08/git/repository/{id}
+ * @summary autogenerate
+ * @param {string} id.path.required - id
+ * @return {Repository} 200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/git/repository/{id}/notify/slack/{slackCode}
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/git/repository/{id}/after
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/git/repository/{id}/deploy
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/git/repository/{id}/pull
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Git
+ * @security BearerAuth
+ */
+

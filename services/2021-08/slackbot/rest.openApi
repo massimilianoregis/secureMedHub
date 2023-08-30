@@ -1,0 +1,41 @@
+
+/**
+ * GET /2021-08/slackbot/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Slackbot
+ * @security BearerAuth
+ */
+
+/**
+ * POST /2021-08/slackbot/config
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Slackbot
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/slackbot/info
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Slackbot
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/slackbot/conversations
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Slackbot
+ * @security BearerAuth
+ */
+
+/**
+ * GET /2021-08/slackbot/send
+ * @summary autogenerate
+ * @return  200 - success response
+ * @tags Slackbot
+ * @security BearerAuth
+ */
+
