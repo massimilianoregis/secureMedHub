@@ -1,26 +1,19 @@
 class User{
-    constructor(jwtData){
+    constructor(jwtData,roles){
+        User.roles=roles
         Object.assign(this,jwtData);
 
-        if(!this.roles) this.roles=[]
-        if(this.roles.find(item=>item.name=="admin")) this.role="admin";
-        if(this.id) this.roles.push({name:"user"})
-        if(this.id && !this.role) this.role="user"; 
-        if(!this.role) this.role="unknown"
+        if(!this.roles) this.roles=["unknown"]                
     }
-    canAccess(role){
-        if(this.roles.find(item=>item.name=="admin")) return true;        
-        if(role==null) return true;			
-		if(role.forEach && role.length==0) return true;
-
-		if(!role.forEach)
-            return this.roles.find(item=>item.name==role)
-
-        for(var i in role)
-            if(this.canAccess(role[i])) 
-                return true;							
-
-		return false;
+    set roles(value){
+        this._roles=value.map(role=>User.roles.find(item=>item.name==role.name||role))
+    }
+    get roles(){
+        return this._roles;
+    }
+    
+    canAccess(req){
+        return this.roles.find(role=>role.canAccess(req))!=null;
     }
 }
 module.exports=User

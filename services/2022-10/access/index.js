@@ -9,7 +9,10 @@ app = new Service()
     .addInfo()
     .addHateoas()
     .addDefaultConfig((config,gatewayApp)=>{                      
-        services=app.services      
+        services=app.services     
+
+        config.roles=Object.entries(config.roles).map(([name,items])=>({name,items}))        
+        
         require("./layer")(gatewayApp,config)
     }).app
 
