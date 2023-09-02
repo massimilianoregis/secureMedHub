@@ -43,9 +43,9 @@ class Static{
         var staticApp = this.addStatic(config.dest);
         
         return (req,res,next)=>{
-            if(req.user.canAccess(config.access))
-                return staticApp(req,res,next);            
-            return res.redirect(config.redirect)
+            //if(req.user.canAccess(config.access))
+            return staticApp(req,res,next);            
+            //return res.redirect(config.redirect)
         }            
     }
 

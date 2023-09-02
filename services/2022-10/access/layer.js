@@ -3,37 +3,28 @@ var User=require("./User")
 var BlackList =require("./BlackList")
 const acl = require('express-acl');
 var jwtdecoder = require('jsonwebtoken');
+const Role = require('./checks/Role')
 
-acl.config({
-    //baseUrl: '2020-09',
-    //path: 'db',
-    filename: 'nacl.json',
-    defaultRole: 'unknown',
-    roleSearchPath: 'user.role',
-    denyCallback: (res) => {
-        throw {
-            code:403,
-            message: 'You are not authorized to access this resource'
-        }
-      
-    }
-  });
-
+var roles;
 module.exports= (app,config)=>{  
-    var {excludeJwt} = config;
-    app.use(cookieParser())	        
-    app.use((req,res,next)=>{          
-        jwt = req.get("auth")||req.cookies.auth;                                            
-        req.user={role:"unknown", canAccess(){return false;}};
+    var {excludeJwt,roles} = config;
+    
+    roles=config.roles.map(({name,items})=>new Role(name,items,config.roles))
+    app.use(cookieParser())	     
+    
+    //create user in the request
+    app.use((req,res,next)=>{        
+        jwt = req.get("auth")||req.cookies.auth;                                                            
         try{
-            req.user= new User(jwtdecoder.verify(jwt,config.secret))         
+            req.user= new User(jwtdecoder.verify(jwt,config.secret), roles)         
         }catch(e){
-            console.log(e);
-            req.user = new User({})
+            req.user = new User({}, roles)
         }
         req.user.jwt=jwt;  
         next();             
     })
+
+    //check for blacklist
     app.use(async (req,res,next)=>{
         if(!jwt || req.user.jwt==excludeJwt) return next()
         
@@ -44,14 +35,20 @@ module.exports= (app,config)=>{
             var jwtReleased=new Date(req.user.iat*1000);
             var blackCreation = new Date(black.createdAt);
             if(jwtReleased<blackCreation){
-                req.user.roles=[{"name": "unknown"}]
-                req.user.role="unknown";
+                req.user.roles=["unknown"]                
             }            
             }
         }catch(e){
             console.log(e)
-        }
+        }        
         next()
     })	
-    app.use(acl.authorize);    
+
+    //check roles
+    app.use(async (req,res,next)=>{               
+        if(req.user.canAccess(req))
+            return next()
+
+        res.send(403,{msg:'unauthorized'})
+    })
   }

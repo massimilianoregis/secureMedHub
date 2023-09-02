@@ -50,6 +50,22 @@ module.exports = {
         "/2022-10/access": {
             secret: "${JWT_SECRET}",
             excludeJwt:"${JWT_BOT}",
+            roles:{
+                admin:[
+                   "ALL .*"                   
+                ],
+                unknown:[
+                    "ALL /2022-08/auth/login",
+                    "ALL /2022-08/auth/registration",
+                    "GET /src/.*"                    
+                ],
+                user:[
+                    "role: unknown",
+                    "GET /2022-10/auth/me",
+                    "ALL /2022-08/auth/logout",
+                    "ALL /2023-06/patient" 
+                ]
+            },            
             calls: {
                 jwt: "GET /2022-10/auth/jwt/${user}"
             }
